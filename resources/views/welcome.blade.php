@@ -8,6 +8,14 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
-    @livewire('landing-page.hero')
+    <livewire:landing-page.navbar>
+    <livewire:landing-page.hero>
+    <livewire:landing-page.about>
+    <livewire:landing-page.solutions>
+    <livewire:landing-page.features>
+    <livewire:landing-page.how-it-works>
+    <livewire:landing-page.security>
+    <livewire:landing-page.cta>
+    <livewire:landing-page.footer>
 </body>
 </html>
